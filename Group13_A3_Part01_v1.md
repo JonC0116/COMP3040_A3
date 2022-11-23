@@ -1,6 +1,6 @@
 # Endangered Species in Manitoba
 ## API description
-
+This is an API that gets endagered species in Manitoba. 
 
 
 ## Endpoint
