@@ -8,9 +8,9 @@
 
 
 ## Parameters
-- type(string): Type of animals. One of "Bird", "Mammals", "Reptiles", ....Optional
-- severity(string): ...
-- Area (string): .... 
+- type(string): Type of animals. One of "Birds", "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish".
+- severity(string): Severity of endangerment. One of "Endangered", "Threatened", "Extirpated".
+- Area (string): Area animal generally lives in. One of "North", "South", "East", "West".
 
 
 ## Resources
