@@ -1,6 +1,7 @@
 # Endangered Species in Manitoba
 ## API description
-This is an API that gets endagered species in Manitoba. 
+
+This is a API inerface which provides the information about endangered species within the province of Manitoba. Users can get information about the name, type and area in which they mostly existed.
 
 
 ## Endpoint
