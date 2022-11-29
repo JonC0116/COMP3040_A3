@@ -1,13 +1,13 @@
 # Endangered Species in Manitoba
 ## API description
 
-This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animal further by entering the area they can be found in. Additionally, users can separate the animals by severity of their endangerment.
+This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animals/plants further by entering the region they can be found in. Additionally, users can separate the animals/plants by severity of their endangerment.
 
 ## Endpoint
 
 Our API only has one endpoint, it is the following:
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife`
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html`
 
 ## Parameters
 
@@ -27,9 +27,14 @@ Our API has four parameters.
 
 ## Sample Requests
 
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animal"&subType="Bird"`
+
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Plant"&subType="Flower"&region="Northern"`
+
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animal"&subType="Fish"&severity="Endangered"&region="Central"`
 
 ## Sample Responses
-The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animals"&subType="Birds"`.
+The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animal"&subType="Bird"`.
 ```
 "results": [
   {
@@ -69,7 +74,7 @@ The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wi
 "status" : "success"
 ```
 
-The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Plants"&subType="Flowers"&region="Northern"`.
+The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Plant"&subType="Flower"&region="Northern"`.
 ```
 "results": [
   {
