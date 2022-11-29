@@ -1,7 +1,7 @@
 # Endangered Species in Manitoba
 ## API description
 
-This is a API which provides information about endangered species within the province of Manitoba. The endagered species that can be returned consists of animals and plants. Users can seperate what type of animal they want to see, such as mammals, reptiles, amhpibians etc. Furthermore, users can seperate the returned animal further by entering the area they can be found in. Additionally, users can seperate the animals by severity of their endangerment.
+This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animal further by entering the area they can be found in. Additionally, users can separate the animals by severity of their endangerment.
 
 
 ## Endpoint
@@ -11,7 +11,7 @@ This is a API which provides information about endangered species within the pro
 
 ## Parameters
 
-Our api has four parameters.
+Our API has four parameters.
 
 | Parameter  | Type    | Required | Description |
 | :-------:  | :--:    | :------: | :---------: |
@@ -23,7 +23,7 @@ Our api has four parameters.
 - **type**: *One of "Animals" or "Plants"*.
 - **subtype**: *One of "Birds", "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish" or "Plants"*.
 - **severity**: *One of "Endangered", "Threatened", "Extirpated"* .
-- **region**: *One of "Central", "Eastern", "Interlake", "Northern","Parkland", "Pembina", "Western", "Winnipeg"*.
+- **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg"*.
 
 
 ## Resources
@@ -38,8 +38,8 @@ Our api has four parameters.
   },
   "status": ""
 }
+## Sample Response
 
 
-## Sample response
 
-
+## Sample Response
