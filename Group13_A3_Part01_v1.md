@@ -5,9 +5,9 @@ This is a API which provides information about endangered species within the pro
 
 
 ## Endpoint
-- Our API has only one endpoint.
-- https://api.gov.mb.ca/nrnd/fish-wildlife
 
+Our API only has one endpoint, it is the following:
+`https://api.gov.mb.ca/nrnd/fish-wildlife`
 
 ## Parameters
 
@@ -41,5 +41,3 @@ Our api has four parameters.
 
 
 ## Sample response
-
-
