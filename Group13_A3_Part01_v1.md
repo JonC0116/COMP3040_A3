@@ -40,11 +40,12 @@ The following is the JSON file that will be returned when using the API:
   {
     "id" : "",
     "name" : "",
+    "scientific_name" : "",
     "type" : "",
     "subtype" : "",
     "region" : ""
     "nearest_municipality" : "",
-    "amount" : ""
+    "remaining" : ""
   }
   ...
 ],
