@@ -25,7 +25,6 @@ Our API has four parameters.
 - **severity**: *One of "Endangered", "Threatened", "Extirpated"* .
 - **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg"*.
 
-
 ## Sample Request
 
 `https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Birds"`
@@ -34,17 +33,25 @@ Our API has four parameters.
 
 `https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Fish"&severity="Endangered"&region="Central"`
 
-
 ## Sample Response
-{
-  "results":
-  {
-    "id": "",
-    "name": "",
-    "type" "",
-    "area":
-    "":
-  },
-  "status": ""
-}
 
+## Resources
+The following is the JSON file that will be returned when using the API:
+
+```
+"results": [
+  {
+    "id" : ""
+    "name" : "",
+    "type" : "",
+    "subtype" : "",
+    "region" : ""
+    "nearest_municipality" : ""
+    "amount" : "",
+  }
+  ...
+],
+"status" : ""
+```
+
+_The array returned by `results` contains all of the animals/plants returned by the API._
