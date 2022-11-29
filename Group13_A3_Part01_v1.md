@@ -5,14 +5,25 @@ This is a API which provides information about endangered species within the pro
 
 
 ## Endpoint
+
 Our API only has one endpoint, it is the following:
 `https://api.gov.mb.ca/nrnd/fish-wildlife`
 
-
 ## Parameters
-- type(string): Type of animals. One of "Birds", "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish". Required.
-- severity(string): Severity of endangerment. One of "Endangered", "Threatened", "Extirpated". Optional.
-- Area (string): Area animal generally lives in. One of "North", "South", "East", "West". Optional.
+
+Our api has four parameters.
+
+| Parameter  | Type    | Required | Description |
+| :-------:  | :--:    | :------: | :---------: |
+| type       | string  | Yes      | type animal or plants |
+| subtype    | string  | Yes      | subcategory of animals or plants|
+| severity   | string  | No       | severity of endangerment |
+| region     | string  | No       | region animal generally lives in |
+
+- **type**: *One of "Animals" or "Plants"*.
+- **subtype**: *One of "Birds", "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish" or "Plants"*.
+- **severity**: *One of "Endangered", "Threatened", "Extirpated"* .
+- **region**: *One of "Central", "Eastern", "Interlake", "Northern","Parkland", "Pembina", "Western", "Winnipeg"*.
 
 
 ## Resources
