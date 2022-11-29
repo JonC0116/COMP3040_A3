@@ -15,15 +15,15 @@ Our API has four parameters.
 
 | Parameter  | Type    | Required | Description |
 | :-------:  | :--:    | :------: | :---------: |
-| type       | string  | Yes      | type animal or plants |
-| subtype    | string  | Yes      | subcategory of animals or plants|
+| type       | string  | Yes      | type of species |
+| subtype    | string  | Yes      | subcategory of animals or subcategory of plants|
 | severity   | string  | No       | severity of endangerment |
 | region     | string  | No       | region animal generally lives in |
 
-- **type**: *One of "Animals" or "Plants"*.
-- **subtype**: *One of "Birds", "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish" or "Plants"*.
-- **severity**: *One of "Endangered", "Threatened", "Extirpated"* .
-- **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg"*.
+- **type**: *Either "Animals" or "Plants".*
+- **subtype**: *Such as "Mammals", "Reptiles", "Amphibians", "Invertebrates", "Fish", "Flowers", "Trees", etc...*
+- **severity**: *One of "Endangered", "Threatened", "Extirpated".*
+- **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg".*
 
 ## Sample Request
 
@@ -43,9 +43,10 @@ The following is the JSON file that will be returned when using the API:
     "scientific_name" : "",
     "type" : "",
     "subtype" : "",
-    "region" : ""
+    "region" : "",
     "nearest_municipality" : "",
-    "remaining" : ""
+    "remaining" : "",
+    "severity" : ""
   }
   ...
 ],
