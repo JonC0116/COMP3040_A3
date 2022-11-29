@@ -1,13 +1,13 @@
 # Endangered Species in Manitoba
 ## API description
 
-This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animal further by entering the area they can be found in. Additionally, users can separate the animals by severity of their endangerment.
+This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animals/plants further by entering the area they can be found in. Additionally, users can separate the animals/plants by severity of their endangerment.
 
 ## Endpoint
 
 Our API only has one endpoint, it is the following:
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife`
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html`
 
 ## Parameters
 
@@ -27,10 +27,13 @@ Our API has four parameters.
 
 ## Sample Request
 
+`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Birds"`
+
+`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Plants"&subType="Plants"&region="Northern"`
+
+`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Fish"&severity="Endangered"&region="Central"`
 
 ## Sample Response
-
-
 
 ## Resources
 The following is the JSON file that will be returned when using the API:
