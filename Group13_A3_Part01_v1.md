@@ -1,7 +1,7 @@
 # Endangered Species in Manitoba
 ## API description
 
-This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animal further by entering the area they can be found in. Additionally, users can separate the animals by severity of their endangerment.
+This is a API which provides information about endangered species within the province of Manitoba. The endangered species that can be returned consists of animals and plants. Users can separate what type of animal they want to see, such as mammals, reptiles, amphibians etc. Furthermore, users can separate the returned animals/plants further by entering the area they can be found in. Additionally, users can separate the animals/plants by severity of their endangerment.
 
 ## Endpoint
 
