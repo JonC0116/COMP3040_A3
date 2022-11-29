@@ -25,20 +25,30 @@ Our API has four parameters.
 - **severity**: *One of "Endangered", "Threatened", "Extirpated"* .
 - **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg"*.
 
-
-## Resources
-{
-  "results":
-  {
-    "id": "",
-    "name": "",
-    "type" "",
-    "area":
-    "":
-  },
-  "status": ""
-}
 ## Sample Request
 
 
 ## Sample Response
+
+
+
+## Resources
+The following is the JSON file that will be returned when using the API:
+
+```
+"results": [
+  {
+    "id" : ""
+    "name" : "",
+    "type" : "",
+    "subtype" : "",
+    "region" : ""
+    "nearest_municipality" : ""
+    "amount" : "",
+  }
+  ...
+],
+"status" : ""
+```
+
+_The array returned by `results` contains all of the animals/plants returned by the API._
