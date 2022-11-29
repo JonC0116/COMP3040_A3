@@ -38,13 +38,13 @@ The following is the JSON file that will be returned when using the API:
 ```
 "results": [
   {
-    "id" : ""
+    "id" : "",
     "name" : "",
     "type" : "",
     "subtype" : "",
     "region" : ""
-    "nearest_municipality" : ""
-    "amount" : "",
+    "nearest_municipality" : "",
+    "amount" : ""
   }
   ...
 ],
@@ -52,3 +52,4 @@ The following is the JSON file that will be returned when using the API:
 ```
 
 _The array returned by `results` contains all of the animals/plants returned by the API._
+_The `...` states that more than one object may be in the array._
