@@ -27,11 +27,11 @@ Our API has four parameters.
 
 ## Sample Request
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Birds"`
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animals"&subType="Birds"`
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Plants"&subType="Plants"&region="Northern"`
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Plants"&subType="Plants"&region="Northern"`
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Fish"&severity="Endangered"&region="Central"`
+`https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animals"&subType="Fish"&severity="Endangered"&region="Central"`
 
 ## Sample Response
 
