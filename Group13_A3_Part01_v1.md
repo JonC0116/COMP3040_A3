@@ -30,9 +30,9 @@ Our API has four parameters.
 
 `https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Birds"`
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Plants"&subType="Trees"&region="Northern"`
+`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Plants"&subType="Plants"&region="Northern"`
 
-`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="fish"&severity="Endangered"&region=""`
+`https://api.gov.mb.ca/nrnd/fish-wildlife?type="Animals"&subType="Fish"&severity="Endangered"&region="Central"`
 
 
 ## Sample Response
