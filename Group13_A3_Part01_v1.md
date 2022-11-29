@@ -25,6 +25,31 @@ Our API has four parameters.
 - **severity**: *One of "Endangered", "Threatened", "Extirpated".*
 - **region**: *One of "Central", "Eastern", "Interlake", "Northern", "Parkland", "Pembina", "Western", "Winnipeg".*
 
+## Resources
+The following is the JSON file that will be returned when using the API:
+
+```
+"results": [
+  {
+    "id" : "",
+    "name" : "",
+    "scientific_name" : "",
+    "type" : "",
+    "subtype" : "",
+    "region" : "",
+    "nearest_municipality" : "",
+    "remaining" : "",
+    "severity" : ""
+  },
+  ...
+],
+"status" : ""
+```
+
+_The array returned by `results` contains all of the animals/plants returned by the API._
+
+_The `...` states that more than one object may be in the array._
+
 ## Sample Requests
 
 `https://www.gov.mb.ca/nrnd/fish-wildlife/wildlife/ecosystems/index.html?type="Animal"&subType="Bird"`
@@ -69,7 +94,8 @@ The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wi
     "nearest_municipality" : "Churchill",
     "remaining" : "420",
     "severity" : "Endangered"
-  }
+  },
+  ...
 ],
 "status" : "success"
 ```
@@ -109,31 +135,8 @@ The following response would be provided for `https://www.gov.mb.ca/nrnd/fish-wi
     "nearest_municipality" : "Snow Lake",
     "remaining" : "318",
     "severity" : "Threatened"
-  }
+  },
+  ...
 ],
 "status" : "success"
 ```
-
-## Resources
-The following is the JSON file that will be returned when using the API:
-
-```
-"results": [
-  {
-    "id" : "",
-    "name" : "",
-    "scientific_name" : "",
-    "type" : "",
-    "subtype" : "",
-    "region" : "",
-    "nearest_municipality" : "",
-    "remaining" : "",
-    "severity" : ""
-  }
-  ...
-],
-"status" : ""
-```
-
-_The array returned by `results` contains all of the animals/plants returned by the API._
-_The `...` states that more than one object may be in the array._
